@@ -54,8 +54,14 @@ angular.module('todoApp')
             $scope.loadingMessage = "";
         })
     };
-    $scope.add = function () {
+    // Add new "load report id" function to add a user defined report id into session memory
+    // $scope.loadReport = function () {
 
+    // };
+
+    $scope.add = function () {
+        // console.log('Scope is as follows:');
+        // console.log($scope);
         todoListSvc.postItem({
             'Description': $scope.newTodoCaption,
             'Owner': adalService.userInfo.userName

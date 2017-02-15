@@ -1,0 +1,23 @@
+{
+  "name": "active-directory-angularjs-singlepageapp",
+  "version": "1.0.0",
+  "description": "---\r services: active-directory\r platforms: javascript\r author: dstrockis\r ---",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azure-Samples/active-directory-angularjs-singlepageapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azure-Samples/active-directory-angularjs-singlepageapp/issues"
+  },
+  "homepage": "https://github.com/Azure-Samples/active-directory-angularjs-singlepageapp#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

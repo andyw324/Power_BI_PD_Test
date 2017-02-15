@@ -1,0 +1,17 @@
+<div class="report-container" >
+	<h1 id='report-container-header'>Power BI Report</h1>
+	<div class="report-id-input">
+        <input ng-model="reportId" class="form-control" type="text" />
+        <span class="report-id-input-btn">
+            <button ng-click="loadReport();" class="btn btn-default">Load Report</button>
+        </span>
+        <br>
+        <p id='reportIdPara'>Report ID: {{reportId}}</p>
+        <p id='appTokenPara'></p>
+    </div>
+<!-- 	<button onclick="testbutton()">Test Button</button>
+	<button onclick="getToken()">Get Token</button>
+	<p id='tokenText'></p>
+	<br></br> -->
+	<iframe src="" id="power-bi-report" style='width: 100%'></iframe>
+</div>
