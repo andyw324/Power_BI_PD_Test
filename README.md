@@ -1,3 +1,4 @@
+My version
 ---
 services: active-directory
 platforms: javascript
